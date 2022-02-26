@@ -1,4 +1,4 @@
-#365 Days Of Code By Krupesh Vithlani
+# 365 Days Of Code By Krupesh Vithlani
 
 Hello 👋, Krupesh This side. Currntly I am Learning JavaScript. So, I have decided that Let's Start the 365 Days Of Code Journey With [Scaler Academy](https://www.scaler.com/).
 
