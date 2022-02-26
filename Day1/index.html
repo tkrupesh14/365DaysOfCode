@@ -1,0 +1,36 @@
+<!-- In 1st day of 365 days of code I have learnt sort and reverse method of array -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day1</title>
+</head>
+<body>
+    <script>
+        var val = prompt("How Many Values: ");
+
+        var arr = new Array();
+        for(var i = 0; i < val; i++){
+          arr[i] = prompt("Enter Value" + i + ": ");
+            document.write(arr[i]);
+        }
+
+       /* sort method
+            sort method is used to sort the array values is starting to end 
+    */
+            document.write("<h2>sorted values</h2>");
+            document.write(arr.sort());
+
+            /* reverse method
+                reverse method is used to revrse the values of array
+            */
+            document.write("<h2>revrse values</h2>");
+            document.write(arr.reverse());
+
+
+    </script>
+</body>
+</html>

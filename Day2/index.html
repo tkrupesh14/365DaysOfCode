@@ -1,0 +1,54 @@
+<!-- in Day 2 of 365 Days of code I have learnt pop(), push(), shift(), unshift() functions of javascript array -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Array Funcs</title>
+</head>
+<body>
+    <script>
+        var val = prompt("How Many Values: ");
+        
+        document.write( "<h2>original values</h2> ");
+        var arr = new Array();
+        for(var i = 0; i < val; i++){
+          arr[i] = prompt("Enter Value" + i + ": ");
+            document.write(arr[i] + ", ");
+        }
+
+       /* pop method
+                 pop method is used to remove an array's last value
+    */
+            document.write("<h2>pop values</h2>");
+            arr.pop();
+            document.write(arr + ", ");
+
+            /* push method
+                push method is used to add a value after array's last value
+            */
+            document.write("<h2>push values</h2>");
+            arr.push("world");
+            document.write(arr + ", ");
+
+
+            //////////////////////////////////////////////////////////////
+
+            /*shift method
+                shift method is used to remove an array's first value
+        */
+        document.write("<h2>shift values</h2>");
+            arr.shift();
+            document.write(arr + ", ");
+
+            /*unshift method
+                unshift method is used to add a value before array's first value
+        */
+        document.write("<h2>unshift values</h2>");
+            arr.unshift("hello");
+            document.write(arr + ", ");
+    </script>
+</body>
+</html>
