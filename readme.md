@@ -4,8 +4,8 @@ Hello 👋, Krupesh This side. Currntly I am Learning JavaScript. So, I have dec
 
 ### Watch My Full Journy Clicking on Days
 
-- [x] [Day 1](https://github.com/tkrupesh14/365DaysOfCode/tree/master/Day1)
-- [x] [Day 2](https://github.com/tkrupesh14/365DaysOfCode/tree/master/Day2)
+- [x] [Day 1](https://github.com/tkrupesh14/365DaysOfCode/tree/master/Day%201)
+- [x] [Day 2](https://github.com/tkrupesh14/365DaysOfCode/tree/master/Day%202)
 - [ ] Day 3
 
 Thanks For Visiting My Repo ❤
