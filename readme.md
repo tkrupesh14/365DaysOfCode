@@ -6,7 +6,8 @@ Hello 👋, Krupesh This side. Currntly I am Learning JavaScript. So, I have dec
 
 - [x] [Day 1](https://github.com/tkrupesh14/365DaysOfCode/tree/master/Day%201)
 - [x] [Day 2](https://github.com/tkrupesh14/365DaysOfCode/tree/master/Day%202)
-- [ ] Day 3
+- [x] [Day 3](https://github.com/tkrupesh14/365DaysOfCode/tree/master/Day%203)
+
 
 Thanks For Visiting My Repo ❤
 
