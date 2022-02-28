@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Every Array Method</title>
+</head>
+<body>
+    <script>
+        document.write("<h2> Original Array</h2>");
+        var arr = [33, 30, 20, 18];
+        document.write(arr + "<br><br>");
+
+        /* every() Method
+            The every() method executes a function for each array element.
+
+            The every() method returns true if the function returns true for all elements.
+
+            The every() method returns false if the function returns false for one element.
+        */
+       document.write("Every Method: " + arr.every(adultAge));
+       function adultAge(age){
+           return age >= 18;
+       }
+    </script>
+</body>
+</html>
