@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FindIndex Array Method</title>
+</head>
+<body>
+    <script>
+        document.write("<h2> Original Array </h2>");
+        var arr = [10,20,2,23];
+        document.write(arr + "<br>");
+
+        /* findIndex() Method
+            The findIndex() method returns the index (position) of the first element that passes a test.
+        */
+       document.write("FindIndex: " + arr.findIndex(function(age){
+                return age>=18;
+       }));
+    </script>
+</body>
+</html>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find Array Mehtod</title>
+</head>
+<body>
+    <script>
+        document.write("<h2> Original Array </h2>");
+        var arr = [10,19,2, 20];
+        document.write(arr + "<br><br>");
+
+        /* find() Method
+            The find() method returns the value of the first element that passes a test.
+        */
+       document.write("Find: " + arr.find(function(age){
+           return age >= 18;
+       }));
+
+    </script>
+</body>
+</html>
