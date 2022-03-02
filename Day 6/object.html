@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Object JavaScript</title>
+</head>
+<body>
+   <script>
+       var a = {
+           firstName: "Krupesh",
+           lastName: "Vithlani",
+           age: 19,
+           hobbies: ["Coding", "Cricket"],
+           fullname: function(){
+               return this.firstName + " " + this.lastName;
+           },
+       }
+       document.write(" First Name: " + a.firstName + "<br>");
+       document.write(" Last Name: " + a.lastName + "<br>");
+       document.write(" age: " + a.age + "<br>");
+       document.write(" hobbies: " + a.hobbies + "<br>");
+       document.write(" fullname: " + a.fullname() + "<br>");
+       
+   </script>
+</body>
+</html>
