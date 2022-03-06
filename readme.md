@@ -11,6 +11,7 @@ Hello 👋, Krupesh This side. Currntly I am Learning JavaScript. So, I have dec
 - [x] [Day 5](https://github.com/tkrupesh14/365DaysOfCode/tree/master/Day%205)
 - [x] [Day 6](https://github.com/tkrupesh14/365DaysOfCode/tree/master/Day%206)
 - [x] [Day 9](https://github.com/tkrupesh14/365DaysOfCode/tree/master/Day%209)
+- [x] [Day 10](https://github.com/tkrupesh14/365DaysOfCode/tree/master/Day%2010)
 
 
 Thanks For Visiting My Repo ❤
